@@ -1,0 +1,162 @@
+side{
+    width: 350px;
+    background: #ededed;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    padding: 40px 50px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+    
+}
+
+strong {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #6f6f6f;
+}
+
+form{
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+form .input-block + .input-block {
+    margin-top: 20px;
+
+}
+
+
+form .input-block label {
+    color: #fe6d00;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+form .input-block input {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #eee;
+
+}
+
+form button[type=submit]  {
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background: #fe6d00;
+    border-radius: 3px;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+    
+}
+
+form button[type=submit]:hover {
+    background: #cc5e1e;
+}
+
+bgbtns{
+    width: 450px;
+    background: #ededed;
+    
+    border-radius: 2px;
+    padding: 40px 50px ;
+    margin-left: -360px;
+    margin-right: 150px;
+    margin-top: 300px;
+}
+
+bgbtns button[type=submit]{
+    width: 100%;
+    border: 0;
+    margin-top: 20px;
+    background: #fe6d00;
+    border-radius: 3px;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+bgbtns button[type=submit]:hover{
+    background: #cc5e1e;
+}
+input[type=button]  {
+    width:100%;
+    border: 0;
+    margin-top: 30px;
+    background: #fe6d00;
+    border-radius: 3px;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+    
+    
+}
+divajuste label{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+@media(max-width:1200px){
+    input[type=button]  {
+        width: auto;
+      
+        border: 0;
+        margin-top: 30px;
+        background: #fe6d00;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 10px;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+        transition: background 0.5s;
+}
+    divajuste label{
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    bgbtns{
+        margin-top: 150px;
+    }
+    
+}
+
+form button[type=submit]  {
+    width: 150px;
+    border: 0;
+    margin-top: 30px;
+    background: #fe6d00;
+    border-radius: 3px;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+    
+}
+form .input-block input {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    background-color: #ededed;
+}

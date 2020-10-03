@@ -1,0 +1,13 @@
+.containerdepara{
+    width: 850px;
+    background: #ededed;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    padding: 40px 80px ;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+label{
+    color:#fe6d00;
+}
